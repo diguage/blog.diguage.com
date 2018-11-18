@@ -1,0 +1,15 @@
+site:
+  title: D瓜哥の博客
+  url: https://blog.diguage.com
+  start_page: network::index.adoc
+content:
+  sources:
+  - url: https://github.com/diguage/networking-protocols-notes.git
+    branches: master
+ui:
+  bundle:
+    url: https://github.com/diguage/antora-ui-default/releases/download/v1.0.0/ui-bundle.zip
+    snapshot: true
+output:
+  clean: true
+  dir: public
