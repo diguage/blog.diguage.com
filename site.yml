@@ -6,6 +6,15 @@ content:
   sources:
   - url: https://github.com/diguage/networking-protocols-notes.git
     branches: master
+  - url: https://github.com/diguage/martes.git
+    branches: master
+asciidoc:
+  attributes:
+    doctype: book
+    icons: font
+    stem: 'latexmath'
+    source_attrs: 'linenums'
+    source_base_path: 'https://raw.githubusercontent.com/diguage/leetcode/master/src/main/java/com/diguage/algorithm/leetcode'
 ui:
   bundle:
     url: https://github.com/diguage/antora-ui-default/releases/download/v1.0.0/ui-bundle.zip
