@@ -8,9 +8,10 @@ content:
     branches: master
   - url: https://github.com/diguage/martes.git
     branches: master
+  - url: https://github.com/diguage/mysql-notes.git
+    branches: master
 asciidoc:
   attributes:
-    doctype: book
     icons: font
     stem: 'latexmath'
     source_attrs: 'linenums'
