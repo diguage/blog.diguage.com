@@ -17,7 +17,7 @@ echo ''
 
 if [ -n "$1" ]; then
     cd $build_dir
-    rsync -avz . deployer@notes.diguage.com:/home/deployer/diguage.com/blog
+    rsync -avz . deployer@blog.diguage.com:/home/deployer/diguage.com/blog
     echo ''
     echo ''
     echo "`date '+%Y-%m-%d %H:%M:%S'` deploy"

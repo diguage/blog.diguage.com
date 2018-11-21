@@ -1,7 +1,7 @@
 site:
   title: D瓜哥の博客
   url: https://blog.diguage.com
-  start_page: network::index.adoc
+  start_page: mysql::index.adoc
 content:
   sources:
   - url: https://github.com/diguage/networking-protocols-notes.git
