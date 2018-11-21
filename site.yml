@@ -1,5 +1,5 @@
 site:
-  title: D瓜哥の博客
+  title: D瓜哥 -- 代码笔记
   url: https://blog.diguage.com
   start_page: mysql::index.adoc
 content:
