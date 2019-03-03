@@ -27,7 +27,7 @@ asciidoc:
     source_base_path: 'https://raw.githubusercontent.com/diguage/leetcode/master/src/main/java/com/diguage/algorithm/leetcode'
 ui:
   bundle:
-    url: https://github.com/diguage/antora-ui-default/releases/download/1.4.1/ui-bundle.zip
+    url: https://github.com/diguage/antora-ui-default/releases/download/1.4.2/ui-bundle.zip
     snapshot: true
 output:
   clean: true
