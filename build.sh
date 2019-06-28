@@ -5,8 +5,10 @@
 base_dir=`pwd`
 build_dir=${base_dir}/public
 
+rm -rf $build_dir
+
+echo 'create public folder...'
 mkdir -p $build_dir
-# rm -rf $build_dir
 
 docker run -u $UID --privileged -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora --pull site.yml
 
